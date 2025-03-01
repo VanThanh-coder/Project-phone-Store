@@ -1,0 +1,16 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-style {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken(#007bff, 10%);
+  }
+}

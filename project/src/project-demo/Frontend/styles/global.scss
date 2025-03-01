@@ -1,0 +1,18 @@
+@import "variables";
+@import "mixins";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  @include button-style;
+}

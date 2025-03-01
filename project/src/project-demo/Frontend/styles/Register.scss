@@ -1,0 +1,49 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230331/pngtree-computer-notebook-high-tech-neon-lines-advertising-background-image_2127246.jpg");
+
+  form {
+    background: white;
+
+    background: rgba(255, 255, 255, 0.1); /* Màu nền trắng trong suốt */
+    backdrop-filter: blur(10px); /* Hiệu ứng kính mờ */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    input {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      &:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+    }
+
+    button {
+      padding: 0.8rem;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #218838;
+      }
+    }
+  }
+}

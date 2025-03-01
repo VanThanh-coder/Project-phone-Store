@@ -1,0 +1,140 @@
+.checkout-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .checkout-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input,
+    select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      outline: none;
+      transition: 0.3s;
+
+      &:focus {
+        border-color: #007b5e;
+        box-shadow: 0 0 5px rgba(0, 123, 94, 0.5);
+      }
+    }
+  }
+
+  .total-price {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d70018;
+    margin: 20px 0;
+  }
+
+  .checkout-button {
+    display: block;
+    width: 100%;
+    background: #007b5e;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background: #005f46;
+    }
+  }
+
+  // Checkbox "Yêu cầu xuất hóa đơn"
+  .invoice-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 14px;
+
+    input {
+      margin-right: 8px;
+    }
+
+    label {
+      cursor: pointer;
+    }
+  }
+
+  // Mã giảm giá
+  .discount-code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+    input {
+      flex: 1;
+      border: none;
+      padding: 10px;
+      font-size: 14px;
+      outline: none;
+      background: transparent;
+    }
+
+    button {
+      background: #333;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background: #555;
+      }
+    }
+  }
+
+  // Ghi chú
+  .note-section {
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      outline: none;
+      height: 80px;
+    }
+  }
+
+  // Điều khoản sử dụng
+  .terms {
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
+  }
+}
