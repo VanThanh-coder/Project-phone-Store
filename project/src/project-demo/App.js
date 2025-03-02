@@ -11,6 +11,7 @@ import Register from "./Frontend/pages/Register";
 import OrderHistory from "./Frontend/pages/OrderHistory";
 import SearchPage from "./Frontend/pages/SeacrchPage";
 import ProfilePage from "./Frontend/pages/ProfilePage";
+
 import AdminPage from "./AdminPage";
 
 function App1() {
