@@ -3,9 +3,6 @@ import { useNavigate } from "react-router-dom";
 import "../styles/ProfilePage.scss";
 import Avatar from "../assets/images/Avatar.jpg";
 import OrderStatusEditor from "../components/OrderStatusEditor";
-import { useParams } from "react-router-dom";
-
-import Products from "../data/ProductData"; // Dữ liệu tĩnh, nếu có
 
 const ProfilePage = () => {
   const [user] = useState({

@@ -1,6 +1,6 @@
-import ip13_default from "../assets/images/ip13.jpg";
-import ip14_default from "../assets/images/ip14.jpg";
-import ip15_default from "../assets/images/ip15.jpg";
+// import ip13_default from "../assets/images/ip13.jpg";
+// import ip14_default from "../assets/images/ip14.jpg";
+// import ip15_default from "../assets/images/ip15.jpg";
 import ip13_black from "../assets/images/ip13-black.jpg";
 import ip13_red from "../assets/images/ip13-red.jpg";
 import ip13_blue from "../assets/images/ip13-blue.jpg";

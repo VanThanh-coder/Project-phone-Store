@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "../styles/Login.scss";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: "", password: "" });
@@ -29,9 +30,6 @@ const Login = () => {
       console.error("Lỗi:", error);
     }
   };
-  const register = () => {
-    navigate("/register");
-  };
 
   return (
     <div className="login-container">
@@ -54,11 +52,8 @@ const Login = () => {
         <button type="submit">Đăng nhập</button>
 
         <div className="extra-options">
-          <a href="/forgot-password">Quên mật khẩu?</a>
-          <a href="" onClick={register}>
-            {" "}
-            Tạo tài khoản
-          </a>
+          <Link to="./">Quên mật khẩu</Link>
+          <Link to="/register">Tạo tài khoản</Link>
         </div>
       </form>
     </div>
